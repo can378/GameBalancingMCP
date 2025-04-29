@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "seminar-management"
+version = "0.1.0"
+description = "세미나 관리용 MCP 서버"
+authors = ["너의 이름"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mcp = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
